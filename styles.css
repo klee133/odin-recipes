@@ -1,0 +1,54 @@
+body {
+    background-color: darkblue;
+    color: skyblue;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Brush Script MT", cursive;
+}
+
+h1.recipe {
+    background-color: blue;
+}
+
+.link {
+    font-size: 18px;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+}
+
+.link.one {
+    background-color: rgb(150, 150, 255);
+}
+
+.link.two {
+    background-color: rgb(175, 175, 255);
+}
+
+.link.three {
+    background-color: rgb(200, 200, 255);
+}
+
+img {
+    text-align: center;
+    height: 250px;
+    width: auto;
+}
+
+.description {
+    background-color: rgb(150, 150, 255);
+    color: black;
+}
+
+.ingredients,
+.ingredients li {
+    background-color: rgb(225, 225, 255);
+    color: black;
+}
+
+.steps,
+.steps li {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
