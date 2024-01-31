@@ -6,16 +6,29 @@ body {
 h1 {
     text-align: center;
     font-family: "Brush Script MT", cursive;
+    font-size: 75px;
 }
 
 h1.recipe {
     background-color: blue;
 }
 
+div.index {
+    width: 970px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
 .link {
     font-size: 18px;
     text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
     font-family: "Times New Roman", serif;
+    box-sizing: border-box;
 }
 
 .link.one {
