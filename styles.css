@@ -10,7 +10,7 @@ h1 {
 }
 
 h1.recipe {
-    background-color: blue;
+    background-color: navy;
 }
 
 div.index {
@@ -43,33 +43,47 @@ div.index {
     background-color: rgb(200, 200, 255);
 }
 
-img.index {
-    text-align: center;
-    height: 150px;
-    width: auto;
-    margin: 0 auto;
-    display: block;
-}
-
 img {
     text-align: center;
     height: 250px;
     width: auto;
+    margin: 70px auto;
+    display: block;
+}
+
+img.index {
+    height: 150px;
+    margin: 0 auto;
 }
 
 .description {
     background-color: rgb(150, 150, 255);
     color: black;
+    text-align: center;
+    padding: 5px;
+    margin: 0px auto;
 }
 
 .ingredients,
 .ingredients li {
     background-color: rgb(225, 225, 255);
     color: black;
+    text-align: center;
+    padding: 5px;
+    margin: 0px auto;
 }
 
 .steps,
 .steps li {
     background-color: rgb(255, 255, 255);
     color: black;
+    text-align: center;
+    padding: 5px;
+    margin: 0px auto;
+}
+
+button.home {
+    background-color: skyblue;
+    margin: 10px auto;
+    display: block;
 }
