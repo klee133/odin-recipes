@@ -43,6 +43,14 @@ div.index {
     background-color: rgb(200, 200, 255);
 }
 
+img.index {
+    text-align: center;
+    height: 150px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
 img {
     text-align: center;
     height: 250px;
